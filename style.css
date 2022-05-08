@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header h1 {
+    flex: 2;
+}
+
+header nav {
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    padding: 30px;
+}
+
+.post {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.post p {
+    padding: 20px 0;
+}
+
+#edit-post-btn,
+#btn-show-create-blog-form,
+#show-create-post-btn {
+    border: none;
+    background: transparent;
+}
+
+.fa-solid {
+    font-size: 18px;
+    color: black;
+    margin-inline: 10px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+form {
+    padding: 10px 0;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 5px 0;
+    width: 50%;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    font-family: inherit;
+}
+
+form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 5px 0;
+}
