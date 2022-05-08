@@ -7,7 +7,7 @@ Blog app where you can:
 
 ### Technologies used
 
-HTML
-CSS
-JavaScript
-PHP
+-   HTML
+-   CSS
+-   JavaScript
+-   PHP
